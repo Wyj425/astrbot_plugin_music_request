@@ -1,0 +1,86 @@
+{
+  "enabled": {
+    "type": "bool",
+    "default": true,
+    "description": "启用点歌"
+  },
+  "platform_id": {
+    "type": "string",
+    "default": "",
+    "description": "QQ接入ID 首次安装请填写当前 AstrBot 中实际配置的接入或提供商 ID。"
+  },
+  "enable_groups": {
+    "type": "bool",
+    "default": true,
+    "description": "群聊点歌（遵循仅@回复名单）"
+  },
+  "enable_private": {
+    "type": "bool",
+    "default": true,
+    "description": "私聊点歌"
+  },
+  "disabled_groups": {
+    "type": "list",
+    "default": [],
+    "description": "停用点歌的群号"
+  },
+  "enable_qq": {
+    "type": "bool",
+    "default": true,
+    "description": "搜索QQ音乐"
+  },
+  "enable_163": {
+    "type": "bool",
+    "default": true,
+    "description": "搜索网易云音乐"
+  },
+  "enable_kugou": {
+    "type": "bool",
+    "default": true,
+    "description": "搜索酷狗音乐"
+  },
+  "platform_order": {
+    "type": "list",
+    "default": [
+      "qq",
+      "163",
+      "kugou"
+    ],
+    "description": "同等匹配度的平台顺序：qq、163、kugou"
+  },
+  "card_mode": {
+    "type": "string",
+    "default": "自动",
+    "options": [
+      "自动",
+      "签名链接卡片",
+      "普通链接"
+    ],
+    "description": "自动先尝试经校验的原生音乐卡片，失败使用其他来源签名卡片"
+  },
+  "search_timeout_seconds": {
+    "type": "int",
+    "default": 8,
+    "description": "每个平台搜索超时秒数（3—20）"
+  },
+  "candidate_count": {
+    "type": "int",
+    "default": 5,
+    "description": "歧义时最多列出候选数（1—5）"
+  },
+  "cache_minutes": {
+    "type": "int",
+    "default": 30,
+    "description": "跨会话复用搜索缓存分钟数"
+  },
+  "selection_minutes": {
+    "type": "int",
+    "default": 5,
+    "description": "选歌列表有效分钟数（按群/私聊和用户隔离）"
+  },
+  "cooldown_seconds": {
+    "type": "int",
+    "default": 3,
+    "description": "同一用户连续点歌最短间隔秒数"
+  }
+}
