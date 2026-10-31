@@ -1,6 +1,6 @@
 name: music_request
 display_name: 大肥鱼点歌
-desc: 搜索QQ音乐、网易云和酷狗，返回音乐卡片或可点击歌曲分享卡片。
+desc: 对 QQ 机器人说出歌名，就能从 QQ音乐、网易云和酷狗找歌，收到歌曲卡片或链接。
 version: 0.2.0
 author: Wyj425
 repo: https://github.com/Wyj425/astrbot_plugin_music_request

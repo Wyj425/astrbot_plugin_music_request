@@ -5,7 +5,7 @@
 | 设置 | 默认值 | 说明 |
 |---|---|---|
 | `enabled` | true | 启用点歌 |
-| `platform_id` | "" | QQ接入ID 首次安装请填写当前 AstrBot 中实际配置的接入或提供商 ID。 |
+| `platform_id` | "" | 首次安装必须填写：在 AstrBot「机器人」页面复制已连接 QQ / OneBot 机器人的平台实例 ID。 |
 | `enable_groups` | true | 群聊点歌（遵循仅@回复名单） |
 | `enable_private` | true | 私聊点歌 |
 | `disabled_groups` | [] | 停用点歌的群号 |
