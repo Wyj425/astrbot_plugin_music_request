@@ -4,7 +4,7 @@
 
 支持 QQ音乐、网易云音乐和酷狗音乐，适用于私聊和群聊。歌名或版本不明确时，会给出候选列表供你选择。
 
-<img src="logo.png" width="120" alt="大肥鱼点歌插件图标">
+<img src="https://raw.githubusercontent.com/Wyj425/astrbot_plugin_music_request/main/logo.png" width="120" alt="大肥鱼点歌插件图标">
 
 ## 能做什么
 
@@ -94,7 +94,7 @@ https://github.com/Wyj425/astrbot_plugin_music_request
 | `selection_minutes` | 候选列表有效期 | 5 分钟 |
 | `cooldown_seconds` | 同一用户连续点歌的最短间隔 | 3 秒 |
 
-更多设置见 [配置说明](docs/CONFIGURATION.md)。
+更多设置见 [配置说明](https://github.com/Wyj425/astrbot_plugin_music_request/blob/main/docs/CONFIGURATION.md)。
 
 ## 常见问题
 
@@ -121,9 +121,9 @@ https://github.com/Wyj425/astrbot_plugin_music_request
 
 ## 开发资料
 
-- [配置说明](docs/CONFIGURATION.md)
-- [接口说明](docs/API.md)
-- [更新记录](CHANGELOG.md)
-- [发布检查](docs/RELEASING.md)
+- [配置说明](https://github.com/Wyj425/astrbot_plugin_music_request/blob/main/docs/CONFIGURATION.md)
+- [接口说明](https://github.com/Wyj425/astrbot_plugin_music_request/blob/main/docs/API.md)
+- [更新记录](https://github.com/Wyj425/astrbot_plugin_music_request/blob/main/CHANGELOG.md)
+- [发布检查](https://github.com/Wyj425/astrbot_plugin_music_request/blob/main/docs/RELEASING.md)
 
-本插件采用 [MIT 许可证](LICENSE)。
+本插件采用 [MIT 许可证](https://github.com/Wyj425/astrbot_plugin_music_request/blob/main/LICENSE)。

@@ -18,7 +18,7 @@ HELP = ('点歌：点歌 晴天 / 我要听周杰伦的晴天\n'
         '选版本：选歌 2 / 换一个版本\n'
         '歌曲需要会员时，进入原平台按你的账号权限播放。')
 
-@register('music_request', 'Wyj425', 'QQ、网易云和酷狗跨平台点歌，原生或签名链接卡片', '0.2.0')
+@register('music_request', 'Wyj425', 'QQ、网易云和酷狗跨平台点歌，原生或签名链接卡片', '0.2.1')
 class MusicRequest(Star):
     def __init__(self, context: Context, config: AstrBotConfig):
         super().__init__(context)
